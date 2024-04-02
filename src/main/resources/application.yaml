@@ -1,0 +1,4 @@
+logging:
+  level:
+    io.kubernetes: DEBUG
+    okhttp3: DEBUG

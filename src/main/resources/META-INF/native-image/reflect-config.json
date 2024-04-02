@@ -1,0 +1,6 @@
+[
+  {
+    "name": "io.kubernetes.client.openapi.models.V1APIVersions",
+    "unsafeAllocated": true
+  }
+]
