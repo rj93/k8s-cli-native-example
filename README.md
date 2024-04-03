@@ -17,7 +17,7 @@ sdk use java 21.0.2-tem && \
 
 # native
 sdk use java 21.0.2-graalce && \
-  mvn native:compile -Pnative && \
+  mvn clean native:compile -Pnative && \
   sdk use java 21.0.2-tem && \
   ./target/k8s-cli-native-example get-pods
 ```
